@@ -15,6 +15,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -23,4 +24,41 @@ main {
     background: #F8F8F8;
     border-radius: 16px;
     padding: 32px;
+}
+
+.person {
+
+}
+.person__data {
+    margin-bottom: 24px;
+}
+.person__heading {
+    font-size: 36px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.person__job {
+    font-size: 18px;
+    color: #545454;
+    font-style: italic;
+    margin: 0;
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.person__description--margin {
+margin-bottom: 22px;
+}
+.person__link {
+    color: #E20613;
+    text-decoration: none;
+} 
+.special {
+    color: #ED6D05;
+    font-weight: normal;
 }
