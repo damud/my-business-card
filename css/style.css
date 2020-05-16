@@ -14,6 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 16px;
 }
 
 main {
@@ -21,4 +22,5 @@ main {
     width: 624px;
     background: #F8F8F8;
     border-radius: 16px;
+    padding: 32px;
 }
