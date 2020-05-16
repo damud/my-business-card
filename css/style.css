@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #2C2141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    margin:0;
+    width: 624px;
+    background: #F8F8F8;
+    border-radius: 16px;
+}
