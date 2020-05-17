@@ -27,14 +27,7 @@ main {
 }
 
 .person {
-    display: flex;
-    align-items: flex-start;
 
-}
-
-.person__image {
-    margin-right: 32px;
-    border-radius: 50%;
 }
 
 .person__data {
