@@ -1,8 +1,3 @@
-html {
-    box-sizing: border-box;
-
-}
-
 *:before,
 *:after {
     box-sizing: inherit;
@@ -11,28 +6,42 @@ html {
 body {
     background-color: #2C2141;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     min-height: 100vh;
     margin: 16px;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
+
 }
 
 main {
     margin: 0;
     width: 624px;
-    background: #F8F8F8;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(322deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(52, 124, 219, 0.9292017832523635) 43%, rgba(0, 212, 255, 1) 100%);
     border-radius: 16px;
     padding: 32px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .person {
+    display: flex;
+    align-items: flex-start;
 
 }
 
 .person__data {
     margin-bottom: 24px;
+}
+
+.person__image {
+    margin-right: 32px;
+    border-radius: 50%;
 }
 
 .person__heading {
@@ -96,5 +105,10 @@ main {
         align-content: center;
         text-align: center;
 
+    }
+
+    main {
+        width: 450px;
+        overflow: hidden;
     }
 }
